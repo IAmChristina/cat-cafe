@@ -1,0 +1,112 @@
+/* resets */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* Universal Styles */
+
+[class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-]{
+  margin: 0;
+}
+
+[class*grid-][class*equalHeight]>[class*=col]{
+  display:block;
+  /* This overrides a quirk where contents inside of equal height containers become columns themselves */
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  /* font-size: 1.2rem; */
+  color: #665c53;
+  /* padding: 2% 1%; */
+  /* margin: 2%; */
+}
+
+section{
+  padding: 2% 5%;
+}
+
+.centered{
+  text-align: center;
+}
+
+.bg-image{
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* max-width: 100%; */
+  min-height: 40vh;
+  /* filter: saturate(60%); */
+}
+
+.saturate-filter{
+  filter: saturate(45%);
+}
+
+.bg-image:hover{
+  filter:opacity(50%);
+}
+
+span{
+  font-weight: bold;
+}
+
+.col, .col-4, .col-3, .col-6, .col-12, .col-6_sm-12, .col-4_sm-12, .col-3_sm-12{
+  padding: 1%;
+}
+
+.no-padding{
+  padding:0;
+}
+
+ul, li, a, ol{
+  text-decoration: none;
+}
+
+/******************** Icons **********************/
+
+.fab, .fa, .fas{
+  font-size: 2rem;
+  margin: 0 0 .5rem 0;
+}
+
+/******************** header *********************/
+
+.banner-image{
+  background-position: 50% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.banner-text{
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+/*********************** footer *******************/
+
+footer{
+  background-color: #e1e3e0;
+  padding: 2% 0;
+  color: #655c52;
+}
+
+footer a{
+  color: #655c52;
+}
+
+.footer-quote{
+  /* font-family: 'Over the Rainbow', cursive; */
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  padding-top: 5%;
+}
