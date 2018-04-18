@@ -10,6 +10,9 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
+    <!-- bootstrap -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+
     <!-- jquery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -27,6 +30,25 @@
 
 <!-- Banner -->
 <header>
+  <!-- bootstrap nav -->
+  <!-- <section class="nav-bg">
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Location</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">FAQs</a>
+  </li>
+</ul>
+</section> -->
+<!-- end of nav -->
+
   <section class="no-padding">
     <div class="centered banner-image" style="background-image: url(images/cat-banner-img.jpg)">
       <div class="banner-text">
@@ -39,8 +61,10 @@
 
 <!-- About Us section -->
 <section class="sideTop-padding">
-  <h2 class="centered">What happens at a cat cafe?</h2>
-  <div class="grid">
+  <div class="grid border">
+    <div class="col-12">
+      <h2 class="centered">What happens at a cat cafe?</h2>
+    </div>
     <div class="col-12">
       <p><span>Lorem ipsum dolor sit amet, </span>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
@@ -64,8 +88,9 @@
       <h2>Location and Hours</h2>
       <div class="col-12 centered">
         <h3><span> Location</span></h3>
-        <p>145 East 72nd St</p>
-        <p>What City, What State</p>
+        <p>145 East 72nd Street</p>
+        <p>New York, NY</p>
+        <p>212.292.7890</p>
       </div>
       <div class="col-12">
 
@@ -78,7 +103,9 @@
       </div>
     </div>
     <div class="col-4_sm-12 bg-image saturate-filter" style="background-image: url(https://images.unsplash.com/photo-1506793324087-e217c95cb1b1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=285a6d1cd3f2ffc171e93dd84332d6dc&auto=format&fit=crop&w=1350&q=80)">
-      <h4 class="banner-text">Our Cafe Menu</h4>
+      <h4 class="banner-text">
+        <a href="menu.html">Our Cafe Menu</a>
+      </h4>
     </div>
 
   </div>
@@ -87,7 +114,7 @@
 <!-- pic gallery -->
 <footer>
 <section class="grid-noGutter gallery popup-gallery">
-  <div class="col-12-grid-noGutter-spaceBetween">
+  <div class="col-12-grid-noGutter-spaceBetween" id="border-gallery">
     <a class="col-2_sm-4_xs-12" href="https://images.unsplash.com/photo-1511821899780-d67e9f638fea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb4d4a727ea29e5a32dbdd7ea6ed5cd1&auto=format&fit=crop&w=1548&q=80">
       <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(https://images.unsplash.com/photo-1511821899780-d67e9f638fea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb4d4a727ea29e5a32dbdd7ea6ed5cd1&auto=format&fit=crop&w=1548&q=80)"></div>
     </a>

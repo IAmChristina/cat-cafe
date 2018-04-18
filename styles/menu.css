@@ -1,0 +1,123 @@
+/* resets */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* Universal Styles */
+
+[class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-]{
+  margin: 0;
+}
+
+[class*grid-][class*equalHeight]>[class*=col]{
+  display:block;
+  /* This overrides a quirk where contents inside of equal height containers become columns themselves */
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  /* font-size: 1.2rem; */
+  color: #665c53;
+  background-image: url("https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e286beb32274afd7a94dd1ed402c56a&auto=format&fit=crop&w=1276&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 2% 1%; */
+  /* margin: 2%; */
+}
+
+section{
+  padding: 2% 5%;
+}
+
+.top-padding{
+  padding: 3% 0 0% 0;
+}
+
+ul, li, a, ol{
+  text-decoration: none;
+  color: white;
+}
+
+.col, .col-4, .col-3, .col-6, .col-12, .col-6_sm-12, .col-4_sm-12, .col-3_sm-12{
+  padding: 1%;
+}
+
+.centered{
+  text-align: center;
+}
+
+.border{
+  border: 3px solid #665c53;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+/******************** nav *********************/
+
+.nav-bg{
+  background-color:#e1e3e0;;
+  padding: 2%;
+}
+
+.nav-item{
+  padding: 0 2% 0 2%;
+}
+
+.nav-link{
+  color: #665c53;
+}
+
+.nav-link.disabled{
+  color: #63584f70;
+}
+
+.nav-link:hover{
+  /* font-weight: bold; */
+  color: #63584f70;
+}
+
+.nav-link.disabled:hover{
+  color: #665c53;
+}
+
+/******************** header *********************/
+
+.banner-image{
+  background-position: 50% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
+.banner-text{
+  text-align: center;
+  color: white;
+  /* padding-top: 10%; */
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+/* menu */
+
+#menu-top{
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+#menu-bottom{
+  line-height: 1.5rem;
+  padding-top: 2%;
+  font-size: 1rem;
+}
+
+.menu-background{
+  background-color: #e1e3e0;
+  padding: 3%;
+  margin: 5% 15% 10% 15%;
+  /* position:relative; */
+
+}
