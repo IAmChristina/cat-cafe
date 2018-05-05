@@ -137,6 +137,7 @@ ul, li, a, ol{
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.5em;
+  text-shadow: 6px 4px 30px black;
 }
 
 /******************** GALLERY SECTION *******************/
@@ -231,4 +232,24 @@ footer i, footer .fab, footer .fa{
   font-size: 1.3rem;
   letter-spacing: .2rem;
   padding-top: 2%;
+}
+
+/**************** CAT GALLERY PAGE ***********/
+
+.cat-gallery{
+  padding: 3%;
+}
+
+.cat-page-banner-text {
+  text-align: center;
+  padding-top: 15%;
+  text-shadow: 6px 4px 30px black;
+}
+
+.cat-gallery .bg-image{
+  filter: opacity(100%);
+}
+
+.cat-gallery .border{
+  padding: 1% 3% 3% 3%;
 }
