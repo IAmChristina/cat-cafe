@@ -109,7 +109,7 @@ ul, li, a, ol{
 
 .nav-link:hover{
   /* font-weight: bold; */
-  color: #63584f70;
+  /* color: #63584f70; */
 }
 
 .nav-link.disabled:hover{
@@ -124,6 +124,8 @@ ul, li, a, ol{
   background-repeat: no-repeat;
   height: 80vh;
   background-attachment: fixed;
+  position: relative;
+  z-index: 2;
 }
 
 .banner-text{
@@ -134,6 +136,29 @@ ul, li, a, ol{
   font-weight: 700;
   line-height: 1.5em;
   text-shadow: 6px 4px 30px black;
+  /* position: absolute; */
+  /* z-index: 3; */
+}
+
+#logo-outside{
+  /* text-align: left; */
+  position: absolute;
+  padding: 2% 0 0 2%;
+  /* z-index: 3; */
+}
+
+#logo-inside{
+  text-align: center;
+  color: white;
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Homemade Apple', cursive; */
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 6px 4px 30px black;
+  border: 5px white solid;
+  border-radius: 100%;
+  padding: 80%;
+  position: absolute;
 }
 
 /********* menu *************/
@@ -141,12 +166,14 @@ ul, li, a, ol{
 #menu-top{
   line-height: 2rem;
   font-size: 1.3rem;
+  text-align: left;
 }
 
 #menu-bottom{
   line-height: 1.5rem;
   padding-top: 2%;
   font-size: 1rem;
+  text-align: left;
 }
 
 .menu-background{
@@ -216,8 +243,15 @@ footer{
   margin: 0 0 .5rem 0;
 }
 
+footer li{
+  text-decoration: none;
+  display: inline;
+
+}
+
 footer a{
   color: #655c52;
+  padding: 0 2%;
 }
 
 footer i, footer .fab, footer .fa{
