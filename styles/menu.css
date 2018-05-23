@@ -7,9 +7,9 @@
 
 /* Universal Styles */
 
-[class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-]{
+/* [class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-]{
   margin: 0;
-}
+} */
 
 [class*grid-][class*equalHeight]>[class*=col]{
   display:block;
@@ -27,14 +27,15 @@ body{
   background-size: cover; */
   /* padding: 2% 1%; */
   /* margin: 2%; */
+  background-image: url('http://ephraim.org/wp-content/uploads/2015/03/Free-Tan-Old-Paper-Texture.jpg')
 }
 
 section{
   padding: 2% 5%;
 }
 
-.top-padding{
-  padding: 3% 0 0% 0;
+#top-padding{
+  padding-top: 4%;
 }
 
 ul, li, a, ol{
@@ -63,8 +64,8 @@ ul, li, a, ol{
 }
 
 .border{
-  border: 3px solid #665c53;
-  border-radius: 5px;
+  border-top: 2px solid #665c5369;
+  border-bottom: 2px solid #665c5369;
   padding: 3%;
 }
 
@@ -147,40 +148,71 @@ ul, li, a, ol{
   /* z-index: 3; */
 }
 
-#logo-inside{
+#logo{
   text-align: center;
   color: white;
   /* font-family: 'Courgette', cursive; */
   /* font-family: 'Homemade Apple', cursive; */
   font-size: 2.5rem;
-  font-weight: bold;
-  text-shadow: 6px 4px 30px black;
-  border: 5px white solid;
-  border-radius: 100%;
-  padding: 80%;
+  padding: 29%;
   position: absolute;
+  height: 89px;
+  width: 85px;
+  background-color: white;
+  border-radius: 100%;
+
 }
 
 /********* menu *************/
 
-#menu-top{
-  line-height: 2rem;
-  font-size: 1.3rem;
-  text-align: left;
+#food, #drinks{
+  line-height: 2.5rem;
+    font-size: 1.3rem;
+    text-align: left;
+    letter-spacing: .02rem;
 }
+
+#food-header{
+  background-image:url(../images/menu-page-food.jpeg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  /* filter: opacity(45%); */
+}
+
+#food-items, #drinks-items{
+  /* text-align: center; */
+  padding-left: 5%;
+}
+
+#drinks-header{
+  background-image: url(../images/menu-page-drink.jpeg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  /* filter: opacity(45%); */
+}
+
+#food h2, #drinks h2{
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+}
+
 
 #menu-bottom{
   line-height: 1.5rem;
-  padding-top: 2%;
+  padding-top: 5%;
   font-size: 1rem;
   text-align: left;
 }
 
 .menu-background{
-  background-color: #e1e3e0;
+  /* background-image: url('http://ephraim.org/wp-content/uploads/2015/03/Free-Tan-Old-Paper-Texture.jpg'); */
   padding: 3%;
   margin: 3% 8% 1% 8%;
   /* position:relative; */
+  border-radius: 5%;
 
 }
 
@@ -218,9 +250,9 @@ ul, li, a, ol{
 }
 
 #border-gallery{
-  border: 3px solid #655c52;
+  border-top: 2px solid #665c5369;
+  border-bottom: 2px solid #665c5369;
   padding: 3%;
-  border-radius: 5px;
   background-color: white;
 }
 
@@ -234,7 +266,7 @@ footer{
 }
 
 .footer-bg{
-  background-color: #e1e3e0;
+  /* background: linear-gradient(#efe7db, #9a94945c); */
   padding-bottom: 2%;
 }
 
@@ -254,6 +286,26 @@ footer a{
   padding: 0 2%;
 }
 
+.fab, .fa, .fas{
+  font-size: 2rem;
+  margin: 0 0 .5rem 0;
+}
+
+footer li{
+  text-decoration: none;
+  display: inline;
+}
+
+footer a, footer .not-active{
+  color: #655c52;
+  padding: 0 2%;
+  font-size: 1.5rem;
+}
+
+footer a:hover{
+  color: #b5adaa;
+}
+
 footer i, footer .fab, footer .fa{
   letter-spacing: 1rem;
   font-size: 2rem;
@@ -264,5 +316,13 @@ footer i, footer .fab, footer .fa{
   font-family: 'Dancing Script', cursive;
   font-size: 1.3rem;
   letter-spacing: .2rem;
-  padding-top: 2%;
+  padding-top: .5%;
+}
+
+/******** media queries *********/
+
+@media screen and (max-width:1025px){
+  .gallery-image{
+    margin: 1%;
+  }
 }

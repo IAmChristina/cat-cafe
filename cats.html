@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Meet the Cats</title>
 
     <!-- google font -->
@@ -27,10 +28,13 @@
 
 </head>
 
-<body>
+<body class="cat-page">
 <header>
   <section class="no-padding">
     <div class="centered banner-image" style="background-image: url(images/meet-cats-banner.jpeg)">
+      <!-- <div id="logo-outside">
+        <a href="index.html"><h3 id="logo-inside">KC</h3></a>
+      </div> -->
       <div class="banner-text cat-page-banner-text">
         <h1>Meet the Cats</h1>
       </div>
@@ -40,11 +44,13 @@
 
 <!-- cats gallery -->
 
-<section class="grid-middle-center cat-gallery">
-  <div class="grid border">
-    <h2 class="col-12 centered">Our current cats-in-residence who are looking for happy a happy home</h2>
+<section class="grid-middle-center cat-hero">
+  <div class="grid border cat-title">
+    <h2 class="col-12 centered">Our current cats-in-residence who are looking for a happy home</h2>
+  </div>
   <!-- cat one -->
-  <div class="col-4">
+  <div class="grid-middle-center cat-gallery" id="meetCats">
+  <div class="grid col-4_md-6_xs-12 block">
     <div class="col-12 bg-image" style="background-image:url(images/cat1.jpg)"></div>
     <div class="col-12 centered">
       <h3>Pikachu</h3>
@@ -54,17 +60,17 @@
   </div>
 
   <!-- cat two -->
-  <div class="col-4">
+  <div class="grid col-4_md-6_xs-12 block">
     <div class="col-12 bg-image" style="background-image:url(images/cat2.jpeg)"></div>
     <div class="col-12 centered">
       <h3>Loki</h3>
       <h4>4 years old</h4>
-      <p>Named after the Norse god of mischief, etc e tc</p>
+      <p>Named after the Norse god of mischief</p>
     </div>
   </div>
 
 <!-- cat three -->
-  <div class="col-4">
+  <div class=" grid col-4_md-6_xs-12 block">
     <div class="col-12 bg-image" style="background-image:url(images/cat3.jpeg)"></div>
     <div class="col-12 centered">
       <h3>Moonbeam</h3>
@@ -74,7 +80,7 @@
   </div>
 
   <!-- cat four -->
-  <div class="col-4">
+  <div class="grid col-4_md-6_xs-12 block">
     <div class="col-12 bg-image"style="background-image:url(images/cat4.jpeg)"></div>
       <div class="col-12 centered">
       <h3>Shiro</h3>
@@ -84,7 +90,7 @@
   </div>
 
   <!-- cat five -->
-    <div class="col-4">
+    <div class="grid col-4_md-6_xs-12 block">
       <div class="col-12 bg-image"style="background-image:url(images/cat5.jpeg)"></div>
       <div class="col-12 centered">
         <h3>Saber</h3>
@@ -94,7 +100,7 @@
     </div>
 
   <!-- cat six -->
-    <div class="col-4">
+    <div class="grid col-4_md-6_xs-12 block">
       <div class="col-12 bg-image"style="background-image:url(images/cat6.jpeg)"></div>
       <div class="col-12 centered">
         <h3>Leo</h3>
@@ -104,7 +110,7 @@
     </div>
 
   <!-- cat seven -->
-    <div class="col-4">
+    <div class="grid col-4_md-6_xs-12 block">
       <div class="col-12 bg-image"style="background-image:url(images/cat7.jpeg)"></div>
       <div class="col-12 centered">
         <h3>Poodle Pie</h3>
@@ -114,7 +120,7 @@
     </div>
 
     <!-- cat eight -->
-    <div class="col-4">
+    <div class="grid col-4_md-6_xs-12 block">
       <div class="col-12 bg-image"style="background-image:url(images/cat8.jpeg)"></div>
       <div class="col-12 centered">
         <h3>Gaia</h3>
@@ -124,7 +130,7 @@
     </div>
 
   <!-- cat nine -->
-    <div class="col-4">
+    <div class="grid col-4_md-6_xs-12 block">
       <div class="col-12 bg-image"style="background-image:url(images/cat9.jpeg)"></div>
       <div class="col-12 centered">
         <h3>Puffin</h3>
@@ -133,35 +139,25 @@
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <!-- footer-->
-<footer>
-    <div class="grid-noGutter top-padding">
-      <div class="col-12 grid-middle-center-noGutter">
-        <div class="col-6_sm-12-middle-center">
-            <div class="centered">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-twitter-square"></i>
-            </div>
-          </div>
-      </div>
+<footer class="cat-footer">
       <div class="col-12 grid-middle-center">
-        <div class="col-6_sm-12grid-middle-center">
-            <nav>
-              <p><a href="/location"> Location &nbsp&nbsp</a> <a href="/team"> About &nbsp&nbsp</a> <a href="#"> Contact &nbsp&nbsp </a> <a href="/team"> FAQs &nbsp&nbsp</a> </p>
-            </nav>
+        <div class="col-6_sm-12 grid-middle-center">
+          <ul class="col-12 centered">
+            <li><a href="index.html"> Home</a></li>
+            <li class="not-active">Cats</li>
+            <li><a href="menu.html">Menu</a> </li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="col-12">
+      <div class="col-12">
         <p class="footer-quote centered">“What greater gift than the love of a cat?”</p>
-    <div>
+      </div>
+    </div>
+  </div>
 </footer>
-
-
-
-
 
 </body>

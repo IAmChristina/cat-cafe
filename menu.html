@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Kitty Cafe Menu</title>
 
     <!-- google font -->
@@ -52,9 +53,9 @@
 
   <section class="no-padding">
     <div class="centered banner-image" style="background-image: url(https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e286beb32274afd7a94dd1ed402c56a&auto=format&fit=crop&w=1276&q=80)">
-      <div id="logo-outside">
-        <a href="index.html"><h3 id="logo-inside">KC</h3></a>
-      </div>
+      <!-- <div id="logo-outside">
+        <a href="index.html"> <img id="logo"src="images/logo.png"></a>
+      </div> -->
       <div class="banner-text">
         <h1>Cafe Menu</h1>
       </div>
@@ -66,71 +67,49 @@
 <body>
   <section class="grid">
   <div class="menu-background">
-    <div class="grid-middle-center border" id="menu-top">
-      <div class="col-9 grid">
-        <div class="col-12">
+    <div class="col-12 grid-spaceBetween" id="food">
+      <div class="col-6_sm-12 grid-middle-center" id="food-header">
           <h2 class="centered">Food</h2>
+      </div>
+      <div class="col-6 grid-middle-center" id="food-items">
+        <div class="col-6_xs-12 grid">assorted pastries
         </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center"></div>
-          <div class="col-6 grid-middle-center">2.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-        <div class="col-6 grid-middle-center">espresso</div>
-        <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12">
-          <h2 class="centered">Drinks</h2>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">coffee of the day</div>
-          <div class="col-6 grid-middle-center">2.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">espresso</div>
-          <div class="col-6 grid-middle-center">2.50</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">cappuccino</div>
-          <div class="col-6 grid-middle-center">3.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">latte</div>
-          <div class="col-6 grid-middle-center">3.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">dark chocolate mocha</div>
-          <div class="col-6 grid-middle-center">3.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">hot chocolate with whipped cream</div>
-          <div class="col-6 grid-middle-center">3.00</div>
-        </div>
-        <div class="col-12 grid">
-          <div class="col-6 grid-middle-center">matcha tea latte</div>
-          <div class="col-6 grid-middle-center">3.50</div>
-        </div>
+        <div class="col-6_xs-12 grid-middle-center">2.00</div>
+        <div class="col-6_xs-12 grid">cinnamon swirl cake</div>
+        <div class="col-6_xs-12 grid-middle-center">2.50</div>
+        <div class="col-6_xs-12 grid">scone of the day</div>
+        <div class="col-6_xs-12 grid-middle-center">2.50</div>
+        <div class="col-6_xs-12 grid">turtle cheesecake bar</div>
+        <div class="col-6_xs-12 grid-middle-center">2.50</div>
+        <div class="col-6_xs-12 grid">yogurt berry parfait</div>
+        <div class="col-6_xs-12 grid-middle-center">2.50</div>
+        <div class="col-6_xs-12 grid">banana pudding</div>
+        <div class="col-6_xs-12 grid-middle-center">2.50</div>
+      </div>
+    </div>
 
+    <!-- drinks menu -->
+    <div class="col-12 grid-middle-center" id="drinks">
+        <div class="col-6 grid-middle-center" id="drinks-items">
+          <div class="col-6_xs-12 grid">coffee of the day</div>
+          <div class="col-6_xs-12 grid-middle-center">2.00</div>
+          <div class="col-6_xs-12 grid">espresso</div>
+          <div class="col-6_xs-12 grid-middle-center">2.50</div>
+          <div class="col-6_xs-12 grid">cappuccino or latte</div>
+          <div class="col-6_xs-12 grid-middle-center">3.00</div>
+          <div class="col-6_xs-12 grid">cinnamon latte</div>
+          <div class="col-6_xs-12 grid-middle-center">3.50</div>
+
+          <div class="col-6_xs-12 grid">dark chocolate mocha</div>
+          <div class="col-6_xs-12 grid-middle-center">3.00</div>
+          <div class="col-6_xs-12 grid">homemade hot chocolate</div>
+          <div class="col-6_xs-12 grid-middle-center">3.00</div>
+          <div class="col-6_xs-12 grid">matcha tea latte</div>
+          <div class="col-6_xs-12 grid-middle-center">3.50</div>
+        </div>
+        <div class="col-6_sm-12 grid-middle-center" id="drinks-header">
+            <h2 class="centered">Drinks</h2>
+        </div>
         <div class="col-12 grid" id="menu-bottom">
           <div class="col-12 grid-middle-center">
             <div class="col-12 grid-middle-center">all drinks can be served iced</div>
@@ -148,45 +127,34 @@
 <footer>
   <section class="grid-noGutter gallery popup-gallery">
     <div class="col-12-grid-noGutter-spaceBetween" id="border-gallery">
-      <a class="col-2_sm-4_xs-12" href="images/food/croissants-coffee.jpeg">
+      <a class="col-2_md-4_sm-12" href="images/food/croissants-coffee.jpeg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/croissants-coffee.jpeg)"></div>
       </a>
-      <a class="col-2_sm-4_xs-12" href="images/food/coffee1.jpeg">
+      <a class="col-2_md-4_sm-12" href="images/food/coffee1.jpeg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/coffee1.jpeg)"></div>
       </a>
-      <a class="col-2_sm-4_xs-12" href="images/food/scone.jpg">
+      <a class="col-2_md-4_sm-12" href="images/food/scone.jpg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/scone.jpg)"></div>
       </a>
-      <a class="col-2_sm-4_xs-12" href="images/food/iced-coffee.jpg">
+      <a class="col-2_md-4_sm-12" href="images/food/iced-coffee.jpg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/iced-coffee.jpg)"></div>
       </a>
-      <a class="col-2_sm-4_xs-12" href="images/food/cookies.jpg">
+      <a class="col-2_md-4_sm-12" href="images/food/cookies.jpg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/cookies.jpg)"></div>
       </a>
-      <a class="col-2_sm-4_xs-12" href="images/food/croissants-coffee2.jpeg">
+      <a class="col-2_md-4_sm-12" href="images/food/croissants-coffee2.jpeg">
         <div class="gallery-image gallery-image-regular bg-image" style="background-image: url(images/food/croissants-coffee2.jpeg)"></div>
       </a>
   </section>
 
   <!-- footer text-->
   <div class="footer-bg">
-    <div class="grid-noGutter top-padding">
-      <div class="col-12 grid-middle-center-noGutter">
-        <div class="col-6_sm-12-middle-center">
-          <div class="centered">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-twitter-square"></i>
-          </div>
-        </div>
-      </div>
-    </div>
       <div class="col-12 grid-middle-center">
         <div class="col-6_sm-12 grid-middle-center">
           <ul class="col-12 centered">
             <li><a href="index.html"> Home</a></li>
             <li><a href="cats.html">Cats</a> </li>
-            <li><a href="#">Contact</a> </li>
+            <li class="not-active">Menu</li>
           </ul>
         </div>
       </div>
