@@ -217,9 +217,11 @@ padding: 5%;
 /***** adoption *******/
 
 .adoption{
-  background-color: #645c51;
+  background-color: #312c27;
   color: #c3c1c0;
   letter-spacing: .01rem;
+  font-size: 1.2rem;
+  filter: opacity(90%);
 }
 
 

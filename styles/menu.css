@@ -197,13 +197,14 @@ ul, li, a, ol{
   font-size: 6rem;
   text-align: center;
   color: white;
+  text-shadow: 6px 4px 30px black
 }
 
 
 #menu-bottom{
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   padding-top: 5%;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: left;
 }
 
