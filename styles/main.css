@@ -187,7 +187,7 @@ padding: 5%;
 /******* about section *******/
 
 .about-us{
-  background-image: url('https://cdn.pixabay.com/photo/2015/05/21/21/22/cat-777932_1280.jpg');
+  background: url("../images/about-us.jpg");
   background-position: 50% 50%;
   min-height: 75vh;
 }
@@ -229,7 +229,7 @@ padding: 5%;
 
 .link-section{
   padding: 5% 10%;
-  background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/43/living-room-690174_1280.jpg');
+  background: url('../images/cafe-seating.jpg');
   background-size: cover;
   background-position: center;
 
@@ -377,7 +377,7 @@ footer a:hover{
 
 /**************** CAT GALLERY PAGE ***********/
 .cat-page{
-  background-image: url('https://cdn.pixabay.com/photo/2015/10/12/15/14/coffee-984328_1280.jpg');
+  background: url('../images/cat-page-bg.jpg');
   background-position: center;
   background-size: cover;
 }
