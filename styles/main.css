@@ -217,8 +217,9 @@ padding: 5%;
 /***** adoption *******/
 
 .adoption{
-  background-color: #312c27;
-  color: #c3c1c0;
+  /* background-color: #312c27; */
+  background: linear-gradient(to top, #efe7db, #9a94945c);
+  color: #645c51;
   letter-spacing: .01rem;
   font-size: 1.2rem;
   filter: opacity(90%);
