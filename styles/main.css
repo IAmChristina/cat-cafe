@@ -459,3 +459,9 @@ footer a:hover{
     background-attachment: scroll;
     }
 }
+
+@media all and (max-width: 767px){
+  .cat-banner-text, .menu-banner-text{
+    font-size: 3rem;
+  }
+}
