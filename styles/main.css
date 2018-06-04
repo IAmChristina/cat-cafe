@@ -242,6 +242,16 @@ padding: 5%;
   border-radius: 5px;
 }
 
+.menu-banner-text, .cat-banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-shadow: 6px 4px 30px black;
+}
+
 
 /******* contact section *******/
 
