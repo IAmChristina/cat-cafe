@@ -332,4 +332,8 @@ footer i, footer .fab, footer .fa{
   .banner-text {
     padding:20% 10% 10% 10%;
   }
+
+  .banner-image{
+    background-attachment: scroll;
+  }
 }

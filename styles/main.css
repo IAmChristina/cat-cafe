@@ -443,4 +443,9 @@ footer a:hover{
   .cat-page-banner-text {
     padding:20% 10% 10% 10%;
   }
+
+  /* cannot have an attached image on ios screens */
+  .banner-image{
+    background-attachment: scroll;
+    }
 }
