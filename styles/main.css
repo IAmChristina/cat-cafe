@@ -22,6 +22,7 @@ body{
   color: #665c53;
   /* padding: 2% 1%; */
   /* margin: 2%; */
+  -webkit-text-size-adjust: 100%;
 }
 
 section{
@@ -459,10 +460,6 @@ footer a:hover{
   .banner-image{
     background-attachment: scroll;
     }
-
-  body{
-    -webkit-text-size-adjust: none;
-  }
 }
 
 @media all and (max-width: 767px){
