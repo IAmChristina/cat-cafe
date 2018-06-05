@@ -459,6 +459,10 @@ footer a:hover{
   .banner-image{
     background-attachment: scroll;
     }
+
+  body{
+    -webkit-text-size-adjust: none;
+  }
 }
 
 @media all and (max-width: 767px){
