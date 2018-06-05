@@ -7,13 +7,11 @@
 
 /* Universal Styles */
 
-[class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-],[class~=grid][class*=col-]{
-  margin: 0;
-}
-
-[class*grid-][class*equalHeight]>[class*=col]{
-  display:block;
-  /* This overrides a quirk where contents inside of equal height containers become columns themselves */
+html {
+  -ms-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 body{
@@ -22,6 +20,19 @@ body{
   color: #665c53;
   /* padding: 2% 1%; */
   /* margin: 2%; */
+  -ms-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid],[class~=grid][class*=col-],[class~=grid][class*=col-]{
+  margin: 0;
+}
+
+[class*grid-][class*equalHeight]>[class*=col]{
+  display:block;
+  /* This overrides a quirk where contents inside of equal height containers become columns themselves */
 }
 
 section{
@@ -444,10 +455,6 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1024px){
-
-  body{
-    -webkit-text-size-adjust: 100%;
-  }
 
   .contact{
     -webkit-text-size-adjust: 100%;
