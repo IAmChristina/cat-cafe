@@ -205,7 +205,7 @@ padding: 5%;
 
 .block{
   color: #655c52;
-  background-color: #ffffffb8;
+  background-color: #ffffffd1;
   border: 14px solid #ffffff73;
   border-radius: 5px;
   margin-top: 2%;
@@ -455,10 +455,6 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1024px){
-
-  .contact{
-    -webkit-text-size-adjust: 100%;
-  }
 
   .contact [class*=grid-][class*=col-]{
     padding-bottom: 2%;
