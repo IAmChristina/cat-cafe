@@ -148,7 +148,7 @@ padding: 5%;
 .banner-text{
   text-align: center;
   color: white;
-  padding-top: 10%;
+  /* padding-top: 10%; */
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.5em;
@@ -189,7 +189,7 @@ padding: 5%;
 .about-us{
   background: url("../images/about-us.jpg");
   background-position: 50% 50%;
-  min-height: 75vh;
+  /* min-height: 75vh; */
 }
 
 .block{
@@ -198,6 +198,7 @@ padding: 5%;
   border: 14px solid #ffffff73;
   border-radius: 5px;
   margin-top: 2%;
+  margin-bottom: 2%;
   margin-left: 2%;
   padding: 3%;
 
