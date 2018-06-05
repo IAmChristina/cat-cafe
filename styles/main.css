@@ -456,6 +456,10 @@ footer a:hover{
 
 @media screen and (max-width: 1024px){
 
+  body{
+    -webkit-text-size-adjust: none;
+  }
+  
   .contact [class*=grid-][class*=col-]{
     padding-bottom: 2%;
     padding-top: 2%;
