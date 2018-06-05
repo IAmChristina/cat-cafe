@@ -22,7 +22,6 @@ body{
   color: #665c53;
   /* padding: 2% 1%; */
   /* margin: 2%; */
-  -webkit-text-size-adjust: 100%;
 }
 
 section{
@@ -445,6 +444,14 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1024px){
+
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .contact{
+    -webkit-text-size-adjust: 100%;
+  }
 
   .contact [class*=grid-][class*=col-]{
     padding-bottom: 2%;
